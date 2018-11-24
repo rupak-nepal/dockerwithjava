@@ -3,5 +3,6 @@ This is demo for using docker with java and other java frameworks.
 
 1. simple webapp with war.
 2. simple webapp with jar.
-3. spring framework
-4. multiple container and others..
+3. simple maven with docker app.
+4. spring framework
+5. multiple container and others..
