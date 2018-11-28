@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    ports:
+     - 9000:9000
+    volumes:
+     - ~/deployments:/opt/jboss/wildfly/standalone/deployments
+    image: jboss/wildfly
+
+
+
+
