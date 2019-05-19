@@ -10,7 +10,16 @@ Using terminal with manual configuration.
 3. view output in terminal or browser:
         curl localhost:8080/testapp-1.0-SNAPSHOT/ or
         localhost:8080/testapp-1.0-SNAPSHOT/
-
+        
+OR:
+       
+Steps:
+   creating mount point from where should we pick war file.
+1. docker container run -d --name web -p 8080:8080 -v /home/rupak/JavaWorkSpace/dockerwithjava/helloweb/dockertestapp.war:/opt/jboss/wildfly/standalone/deployments/dockertestapp.war jboss/wildfly
+2. docker container logs web                
+3. to view output:this is for javaee8 application.
+        http://localhost:8080/dockertestapp/api/ping
+OR:
 Using docker-compose.yml
 1. docker-compose up -d //otherwise docker daemon could not start without permission
 2. docker-compose ps //to view list of services running
