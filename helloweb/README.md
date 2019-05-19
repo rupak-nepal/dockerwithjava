@@ -12,9 +12,9 @@ Using terminal with manual configuration.
         localhost:8080/testapp-1.0-SNAPSHOT/
 
 Using docker-compose.yml
-1. sudo docker-compose up -d //otherwise docker daemon could not start without permission
-2. sudo docker-compose ps //to view list of services running
-3. sudo docker-compose logs -f //to view logs.
+1. docker-compose up -d //otherwise docker daemon could not start without permission
+2. docker-compose ps //to view list of services running
+3. docker-compose logs -f //to view logs.
    
    cp .../testapp-1.0-SNAPSHOT.war deployments/
    Need to copy war file to deployment directory which is automatically created as we did
