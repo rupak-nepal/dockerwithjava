@@ -19,7 +19,10 @@ Steps:
 2. docker container logs web                
 3. to view output:this is for javaee8 application.
         http://localhost:8080/dockertestapp/api/ping
+        
+        
 OR:
+
 Using docker-compose.yml
 1. docker-compose up -d //otherwise docker daemon could not start without permission
 2. docker-compose ps //to view list of services running
