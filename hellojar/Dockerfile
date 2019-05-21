@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-slim
 
-COPY testapplication-0.0.1-SNAPSHOT.jar /deployments/
+COPY dockertestapp.jar /deployments/
 
-CMD java -jar /deployments/testapplication-0.0.1-SNAPSHOT.jar
+CMD java -jar /deployments/dockertestapp.jar
