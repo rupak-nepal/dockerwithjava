@@ -4,6 +4,9 @@ This is demo for using docker with java wep application in jar packaging.
 
 
 Steps: 
+
+  #to build jar file and clean and package of target application. 
+  mvn -f applicationname/pom.xml clean package
 1. build docker image. 
 	docker image build -t image_name
 2. run container by exposing ports. //to run in detached mode
