@@ -1,7 +1,7 @@
 # dockerwith java web app
 This is demo for using docker with java wep application.
 
-Steps: 
+Steps Using docker file: 
 Using terminal with manual configuration. 
 1. build docker image. 
 	docker image build -t image_name
@@ -13,7 +13,7 @@ Using terminal with manual configuration.
         
 OR:
        
-Steps:
+Steps Without using docker file:
    creating mount point from where should we pick war file.
 1. docker container run -d --name web -p 8080:8080 -v /home/rupak/JavaWorkSpace/dockerwithjava/helloweb/dockertestapp.war:/opt/jboss/wildfly/standalone/deployments/dockertestapp.war jboss/wildfly
 2. docker container logs web                
