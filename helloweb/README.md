@@ -8,9 +8,9 @@ Using terminal with manual configuration.
 2. run container by exposing ports.
         docker container run -p 8080:8080 -d  image_name
 3. view output in terminal or browser:
-        curl localhost:8080/testapp-1.0-SNAPSHOT/ or
-        localhost:8080/testapp-1.0-SNAPSHOT/
-        
+        curl localhost:8080/dockertestapp/api/ping/
+         or
+        http://localhost:8080/dockertestapp/api/ping
 OR:
        
 Steps Without using docker file:
