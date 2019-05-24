@@ -10,4 +10,4 @@ Steps:
 2. run container by exposing ports. //to run in detached mode
         docker container run -p 8080:8080 -d  image_name
 3. view Result/output in terminal
-        docker container logs container_name 
+        docker container run image_name
