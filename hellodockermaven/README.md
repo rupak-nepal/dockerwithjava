@@ -3,6 +3,10 @@ Docker Java Sample
 This repository contain samples that shows integration of Docker and Java.
 Maven
 
+package application and run application
+mvn clean package exec:java
+
+to dockerize application:
 Classical
 
   1.  Build app: mvn package

@@ -77,7 +77,7 @@
                         <configuration>
                             <images>
                                 <image>
-                                    <name>mavensample</name>
+                                    <name>hellodockerizedjava</name>
                                     <!--how to build image-->
                                     <build>
                                         <from>openjdk:latest</from>
@@ -90,7 +90,7 @@
                                     </build>
                                     <run>
                                         <wait>
-                                            <log>Hello World!</log>
+                                            <log>Hello Dockerized Java World!</log>
                                         </wait>
                                     </run>
                                 </image>
