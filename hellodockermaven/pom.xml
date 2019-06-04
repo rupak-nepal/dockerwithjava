@@ -72,12 +72,12 @@
                     <plugin>
                         <groupId>io.fabric8</groupId>
                         <artifactId>docker-maven-plugin</artifactId>
-                        <version>0.20.1</version>
+                        <version>0.30.0</version>
                         <!--specify the configuration-->
                         <configuration>
                             <images>
                                 <image>
-                                    <name>hellodockerizedjava</name>
+                                    <name>dockerjava</name>
                                     <!--how to build image-->
                                     <build>
                                         <from>openjdk:latest</from>
