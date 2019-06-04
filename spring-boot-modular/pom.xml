@@ -2,12 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.rupak.security</groupId>
-    <artifactId>springboot-modular-application</artifactId>
+    <groupId>np.com.rupak</groupId>
+    <artifactId>spring-boot-modular</artifactId>
     <version>1.0.0</version>
-    <name>springboot-modular-application</name>
     <packaging>pom</packaging>
-    <description>Demo project for Spring Boot</description>
+    <name>spring-boot-modular</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -17,8 +16,9 @@
     </parent>
 
     <modules>
-        <module>springboot-modular-application-ui</module>
-        <module>springboot-modular-application-services</module>
+        <module>spring-boot-modular-service</module>
+        <module>spring-boot-modular-ui</module>
+        <module>spring-boot-modular-platform</module>
     </modules>
 
     <properties>
