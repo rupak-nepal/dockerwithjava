@@ -1,12 +1,21 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:tiles="http://www.thymeleaf.org">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>SpringBootModularApplicationDesign</title>
+    <title tiles:fragment="title">SpringBootModularApplicationDesign</title>
 </head>
 <body>
-<h1>SpringBootModularApplicationDesign</h1>
+<div >
+    <form action="${mvc.contextPath}/login" method="post">
+      <%--With problem.--%>
+        <fieldset>
+            <label for="userId">Username</label>
+            <input type="text" id="userId" name="userId"/>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password"/>
+            <div class="form-actions">
+                <button type="submit" class="btn">Log in</button>
+            </div>
+        </fieldset>
+    </form>
+</div>
 </body>
 </html>
