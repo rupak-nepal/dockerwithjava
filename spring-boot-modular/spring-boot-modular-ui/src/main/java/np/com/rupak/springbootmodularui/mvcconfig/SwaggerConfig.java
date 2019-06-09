@@ -21,13 +21,13 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select().apis(RequestHandlerSelectors.any())
                 .paths(PathSelectors.any())
-                .build().apiInfo(appDetails());
+                .build();//.apiInfo(appDetails());
     }
 
     private ApiInfo appDetails() {
         return new ApiInfo("SpringBootModular", "Just Testing security, docker, modular..etc."
                 , "1.0.0", ""
-                , new Contact("Rupak Nepal", null, null)
+                , new Contact("Rupak Nepal", "", "")
                 , "Apache License Version 2.0", "https://www.apache.org/licenses/LICENSE-2.0"
                 , null);
     }

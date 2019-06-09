@@ -13,9 +13,9 @@ public class IndexController {
 
     private static final Logger logger = Logger.getLogger(IndexController.class.getName());
 
-    @RequestMapping(path = {"/"},method = RequestMethod.GET)
+   /* @RequestMapping(path = {"/"},method = RequestMethod.GET)
     public ModelAndView viewIndexPage(){
         logger.log(Level.INFO,"Getting indise index main page.");
         return new ModelAndView("index");
-    }
+    }*/
 }
