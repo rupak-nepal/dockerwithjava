@@ -1,10 +1,12 @@
-<html xmlns:th="http://www.thymeleaf.org" xmlns:tiles="http://www.thymeleaf.org">
+<%--<html xmlns:th="http://www.thymeleaf.org" xmlns:tiles="http://www.thymeleaf.org">--%>
+<html>
 <head>
     <title tiles:fragment="title">SpringBootModularApplicationDesign</title>
 </head>
 <body>
 <div >
-    <form action="${mvc.contextPath}/login" method="post">
+    <form action="/" method="post">
+    <%--<form action="${mvc.contextPath}/login" method="post">--%>
       <%--With problem.--%>
         <fieldset>
             <label for="userId">Username</label>

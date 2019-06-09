@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
  */
 public class RegisterViewController {
 
-    public void registerIndexController(ViewControllerRegistry registry){
-        registry.addViewController("/").setViewName("index");
-    }
+//    static void registerIndexController(ViewControllerRegistry registry){
+//        registry.addViewController("/").setViewName("index");
+//    }
 }
